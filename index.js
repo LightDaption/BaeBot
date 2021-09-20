@@ -8,7 +8,7 @@
 
  //>=====================>>> INSTANCES <<<====================================*/
  const cooldowns            = new Discord.Collection();
- const client               = new Discord.Client();
+ const client               = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
  let tomo                   = new Tomo.tomo(config.name);
 
  //>===================>>> COMMAND COLLECTION <<<=============================*/
