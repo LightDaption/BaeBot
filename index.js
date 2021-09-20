@@ -4,6 +4,7 @@
  const Tomo                 = require("./classes/tomo.js");
  const generic_helpers      = require('./helpers/generic_helpers.js');
  const config               = require('./configurations/botConfiguration.json');
+ const {token}              = require('./configurations/token.json');
 
  //>=====================>>> INSTANCES <<<====================================*/
  const cooldowns            = new Discord.Collection();
@@ -77,4 +78,4 @@
  });
 
 //>======================>>> ACTIVATE CLIENT <<<==============================*/
- client.login(config.token);
+ client.login(token);
