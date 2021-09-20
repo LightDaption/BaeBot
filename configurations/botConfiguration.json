@@ -1,0 +1,34 @@
+{
+    "prefix": "\\",
+    "name": "Lelo",
+    "self_id": "771930029520322580",
+    "guild_id": "768684681675407361",
+    "cron_timers": {
+        "1":"Testing"
+    },
+    "guild_roles": {
+        "warning_one":"774068418897903616",
+        "warning_two":"888846694886830080",
+        "moderator":"773726537106849834"
+    },
+    "channels": {
+        "rules":"888581954415493140",
+        "warning_removal":"888581954415493140",
+        "logging":"888581954415493140"
+    },
+    "local_dir": {
+        "1":"Testing"
+    },
+    "users": {
+        "1":"Testing"
+    },
+    "emotes": {
+        "1":"Testing"
+    },
+    "rules": {
+        "1":"Testing"
+    },
+    "activities": [
+        "Testing."
+    ]
+}
