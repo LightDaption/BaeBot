@@ -44,8 +44,8 @@
          this.currentName = this.basename +
              " (" +
              this.love_status[this.convertToStatusIndex(this.love)] +
-             "|" +
-             this.happiness_status[this.convertToStatusIndex(this.happiness)] +
+            //  "|" +
+            //  this.happiness_status[this.convertToStatusIndex(this.happiness)] +
              "|" +
              this.hunger_status[this.convertToStatusIndex(this.hunger)] +
              ")"
