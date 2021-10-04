@@ -10,7 +10,7 @@ module.exports = {
     name: 'sfw',
     aliases: ['f'],
     usage: '<tag> <user>',
-    cooldown: 0,
+    cooldown: 120,
     description: 'Do a sfw action',
     execute(message, args, client, tomo) {
         const user = message.mentions.users.first() || message.author;
