@@ -36,7 +36,7 @@ module.exports = {
                         authorField
                     )
                     .setImage(body.url)
-                    .setFooter("Powered by " + APIConfig.neko.poweredby[Math.floor(Math.random() * APIConfig.neko.poweredby.length)]);
+                    //.setFooter("Powered by " + APIConfig.neko.poweredby[Math.floor(Math.random() * APIConfig.neko.poweredby.length)]);
                 message.channel.send(embed);
             });
             message.delete();
