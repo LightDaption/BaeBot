@@ -73,9 +73,9 @@
      updateStatuses() {
 
         //! emotions/hunger are reduced by a random number in these ranges
-         let happiness_upper_lower = [1, 3];
-         let love_upper_lower = [1, 3];
-         let hunger_upper_lower = [1, 3];
+         let happiness_upper_lower = [1, 1];
+         let love_upper_lower = [1, 1];
+         let hunger_upper_lower = [1, 1];
 
 
          this.hunger = (this.hunger - (Math.floor(Math.random() * hunger_upper_lower[1]) + hunger_upper_lower[0]));
